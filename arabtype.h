@@ -106,7 +106,6 @@ static all_form_t arabic_forms_b[]	= {
 };
 
 
-
 static inline bool is_arabic_letter(uint32_t cp)
 { 
 	return ( cp >= ARABIC_LETTER_START && cp <=  ARABIC_LETTER_END ); 
