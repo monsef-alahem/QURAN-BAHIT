@@ -802,7 +802,7 @@ int search_arab(arab_line_t *line, uint32_t *text, int txtsize)
 {
     int j = txtsize;
     int recurence = 0, ret = 0;
-    int k = line->utfs-1;
+    int k = line->utfs;
     for (int i = k-txtsize ; i > -1 ; i--) { 
         ret = is_text_match(&line->in_utf[i], text, j);
         recurence += ret;
